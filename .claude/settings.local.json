@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:aeterlink.co.jp)",
+      "WebSearch",
+      "WebFetch(domain:aeterlink.com)",
+      "WebFetch(domain:spacepowertech.com)",
+      "WebFetch(domain:powerwave.co.jp)",
+      "WebFetch(domain:coosy.co.jp)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
