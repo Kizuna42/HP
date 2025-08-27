@@ -74,7 +74,7 @@ export default function WhoWeArePage() {
       </section>
 
       {/* Brand Concept */}
-      <section className="py-20 bg-gray-50">
+      <section id="brand-concept" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -86,7 +86,7 @@ export default function WhoWeArePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div id="vmv" className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {brandValues.map((value, index) => (
               <div key={index} className="bg-white rounded-xl shadow-lg p-8 text-center border border-gray-100">
                 <Icon icon={value.icon} className="text-5xl text-blue-600 mx-auto mb-4" />
@@ -100,7 +100,7 @@ export default function WhoWeArePage() {
       </section>
 
       {/* Brand History */}
-      <section className="py-20 bg-white">
+      <section id="brand-history" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -148,7 +148,7 @@ export default function WhoWeArePage() {
               公式noteで詳しくご紹介しています
             </p>
             <a
-              href="https://note.com/aeterlink_corp"
+              href="https://note.com/aeterlink"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-medium transition-colors"

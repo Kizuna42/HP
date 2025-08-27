@@ -131,6 +131,7 @@ export default function NewsPage() {
               <select
                 value={selectedYear}
                 onChange={(e) => setSelectedYear(e.target.value === "全て" ? "全て" : parseInt(e.target.value))}
+                title="年度を選択してください"
                 className="px-4 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               >
                 <option value="全て">全て</option>
